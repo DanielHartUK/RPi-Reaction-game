@@ -23,15 +23,15 @@ The game uses 12 standard LEDs (ideally 3 sets of 4 coloured LEDS, with a red an
 | BUTTON   | 12            | 19              |
 
 ###Breadboard diagram
-![Breadboard diagram](https://github.com/DanielHartUK/RPi-Reaction-game/tree/master/breadboarddiagram.png)
+![Breadboard diagram](https://github.com/DanielHartUK/RPi-Reaction-game/blob/master/breadboarddiagram.png?raw=true)
 
 ##Compiling
 
 You'll need to install WiringPi first to compile the code, full instructions can be found on the [WiringPi website](http://wiringpi.com/download-and-install/)
 
 To compile:
-`gcc -Wall -o blink blink.c -lwiringPi`
+`gcc -Wall -o game game.c -lwiringPi`
 
 And then to run:
-`sudo ./blink`
+`sudo ./game`
 
